@@ -1,0 +1,33 @@
+# build directory
+build/*
+
+# autotools
+Makefile.in
+aclocal.m4
+autom4te.cache
+compile
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+missing
+test-driver
+config.h.in
+.deps/
+.dirstamp/
+
+# cuda
+nvcc_arch_sm
+
+# temporary files
+*.swp
+*~
+
+# compiled files
+*.mod
+*.o
+*.log
+
+# static library
+libspral.a

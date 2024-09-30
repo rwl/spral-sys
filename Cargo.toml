@@ -1,0 +1,16 @@
+[package]
+name = "spral-sys"
+version = "0.1.0"
+description = "Rust FFI bindings for SPRAL"
+license = "BSD-3-Clause"
+repository = "https://github.com/rwl/spral-sys"
+edition = "2021"
+
+[build-dependencies]
+bindgen = "0.70"
+cc = "1"
+
+[features]
+default = []
+shared_libraries = []
+static_libraries = []
