@@ -13,6 +13,7 @@ fn main() {
     if cfg!(feature = "shared_libraries") {
         println!("cargo:rustc-link-lib=dylib=spral");
     } else if cfg!(feature = "static_libraries") {
+        println!("cargo:rustc-link-lib=static=gfortran");
         println!("cargo:rustc-link-lib=static=spral");
     }
 
